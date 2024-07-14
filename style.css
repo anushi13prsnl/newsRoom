@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -76,4 +77,84 @@ footer {
 
 .search{
     margin-right: 30PX;
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: rgb(244, 243, 243);
+    color: black;
+    /* padding: 60px 20px; */
+    text-align: center;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  
+}
+
+.news-snippet {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 20px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.news-snippet img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-snippet p {
+    margin: 10px 0 0;
+    
+}
+
+.search{
+    margin-right: 30PX;
+>>>>>>> 8ec9323c7f9ccfc58cee5ae5792a59e50183ed15
 }
